@@ -14,3 +14,9 @@ Required Modules
 - time
 - datetime
 - dhooks
+
+To run with Docker run the following commands:
+- cd into the main scraper directory
+- run `docker build -t shopify:1.0 .`
+- run  `docker run -it --rm --name shopify-scraper shopify:1.0`
+- any new requirements can be added to requirements.txt
